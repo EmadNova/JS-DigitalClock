@@ -40,3 +40,59 @@ body {
     }
   }
 }
+
+@media (min-width: 320px) {
+
+  .time {
+
+    .firstInner {
+
+      .inner {
+        font-size: 5rem;
+        color: $lightBrown;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+
+  .time {
+
+    .firstInner {
+
+      .inner {
+        font-size: 8rem;
+        color: $lightBrown;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .time {
+
+    .firstInner {
+
+      .inner {
+        font-size: 12rem;
+        color: $lightBrown;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .time {
+
+    .firstInner {
+
+      .inner {
+        font-size: 15rem;
+        color: $lightBrown;
+      }
+    }
+  }
+}

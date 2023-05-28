@@ -1,0 +1,42 @@
+$white: #fff;
+$black: #000;
+$red: #6F1D1B;
+$lightBrown: #FFE6A7;
+$mediumBrown: #BB9457;
+$brown: #99582A;
+$darkBrown: #432818;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  @include flex;
+  min-height: 100vh;
+  background-color: $red;
+}
+
+.time {
+
+  .firstInner {
+    @include flex;
+    width: 800px;
+
+    .inner {
+      font-size: 15rem;
+      color: $lightBrown;
+    }
+  }
+}
